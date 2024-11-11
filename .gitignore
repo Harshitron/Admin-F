@@ -1,0 +1,66 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+coverage/
+.cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.* # In case you use multiple environment files, like .env.development, .env.production
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Babel and ESLint cache
+.babel_cache
+.eslintcache
+
+# Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Testing files
+.jest/
+jest-report.xml
+__snapshots__/
+coverage/
+.cypress/
+cypress/videos/
+cypress/screenshots/
+
+# React-specific files
+node_modules/
+public/static/
+public/manifest.json
+public/asset-manifest.json
+public/service-worker.js
+public/sitemap.xml
+public/robots.txt
+
+# Misc
+*.gz
+*.zip
